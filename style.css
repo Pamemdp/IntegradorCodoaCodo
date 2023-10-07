@@ -1,0 +1,148 @@
+.navbar {
+    height: 80px;
+    background-color: #353a40;
+}
+
+
+#navbarNav {
+    text-align: right;
+}
+
+.carousel-caption {
+    top: 60%;
+    transform: translateY(-50%);
+    text-align: right;
+    left: auto;
+    right: 150px;
+}
+
+.carousel-caption p {
+    font-size: 20px;
+}
+
+.carousel-item img {
+    filter: brightness(50%);
+}
+
+.conoce-a-los {
+    font-size: x-small;
+    font-weight: lighter;
+}
+
+#los-oradores {
+    margin-top: 2%;
+}
+
+#cuadroGris {
+    background-color: #353a40;
+}
+
+.p-5 p {
+    font-size: small;
+}
+
+#lugarYfecha {
+    margin-top: 2%;
+}
+
+.badge text-bg-warning {
+    text-align: left;
+}
+
+.card-body {
+    text-align: left;
+}
+
+.card-text {
+    font-weight: lighter;
+}
+
+.form-group ::placeholder {
+    color: #a8a8a8;
+    font-weight: lighter;
+}
+
+#tema {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+#convierteteOrador {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#convierteteOrador .subrayado {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+#convierteteOrador .container h5 {
+    font-weight: lighter;
+    font-size: small;
+}
+
+#convierteteOrador .container h2 {
+    font-weight: normal;
+}
+
+#convierteteOrador .form-row {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 2%;
+}
+
+#convierteteOrador .escribe {
+    margin: 0 auto;
+}
+
+#convierteteOrador h4 {
+    font-weight: lighter;
+    font-size: small;
+    text-align: left;
+    color: #a8a8a8;
+    margin-bottom: 2%;
+}
+
+
+.btn-verde {
+    background-color: #96c93e;
+    color: white;
+}
+
+
+footer {
+    background-color: rgba(29, 57, 71, 255);
+}
+
+
+footer a {
+    text-decoration: none;
+}
+
+
+footer ul.list-inline {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    list-style: none;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+footer ul.list-inline li {
+    padding: 0 10px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+footer ul.list-inline a {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column;
+    }
+}
